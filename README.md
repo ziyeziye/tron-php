@@ -16,6 +16,7 @@ TRON-PHP 目前支持波场的 TRX 和 TRC20 中常用生成地址，发起转�
 - 根据私钥得到地址 `privateKeyToAddress(string $privateKeyHex)`
 - 查询余额 `balance(Address $address)`
 - 交易转账(离线签名) `transfer(Address $from, Address $to, float $amount)`
+- 交易代转账(离线签名) `transferFrom(Address $from, Address $to, float $amount)`
 - 查询最新区块 `blockNumber()`
 - 根据区块链查询信息 `blockByNumber(int $blockID)`
 - 根据交易哈希查询信息 `transactionReceipt(string $txHash)`

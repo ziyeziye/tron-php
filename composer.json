@@ -1,5 +1,5 @@
 {
-    "name": "fenguoz/tron-php",
+    "name": "ziyeziye/tron-php",
     "description": "Support TRON's TRX and TRC20, which include functions such as address creation, balance query, transaction transfer, query the latest blockchain, query information based on the blockchain, and query information based on the transaction hash",
     "keywords": [
         "php",
@@ -8,16 +8,16 @@
         "trc20"
     ],
     "type": "library",
-    "homepage": "https://github.com/Fenguoz/tron-php",
+    "homepage": "https://github.com/ziyeziye/tron-php",
     "license": "MIT",
     "authors": [
         {
-            "name": "Fenguoz",
-            "email": "243944672@qq.com"
+            "name": "ziyeziye",
+            "email": "547562496@qq.com"
         }
     ],
     "require": {
-        "iexbase/tron-api": "^2.0 || ^3.0 || ^3.1",
+        "ziyeziye/tron-api": "^2.0 || ^3.0 || ^3.1",
         "ionux/phactor": "1.0.8",
         "kornrunner/keccak": "^1.0"
     },
